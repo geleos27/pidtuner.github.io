@@ -4,8 +4,8 @@ var src     = scripts[scripts.length-1].src;
 var listUrl = src.split('/');
 listUrl.pop();
 listUrl.push("");
-//var scriptTunePidViewDir = listUrl.join("/");
-var scriptTunePidViewDir = "./app/components/";
+var scriptTunePidViewDir = listUrl.join("/");
+//var scriptTunePidViewDir = "./app/components/";
 
 getTunePidViewComponent = async function() {
 // ------------------------------------------------------------------------
