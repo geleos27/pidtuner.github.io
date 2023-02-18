@@ -39,7 +39,7 @@ var TunePidView = {
       required: true
     },
     cached_r_size: {
-      type    : Number,
+      type    : Array,
       required: true
     },
     cached_d_size: {
@@ -547,7 +547,7 @@ var TunePidView = {
 		await this.makeSimulation();		
 	},
 	updateRefSize() {
-		this.$emit('update_cached_r_size', parseFloat( this.$refs.r_size.value ));
+		this.$emit('update_cached_r_size', this.$refs.r_size.value.split(',').map(Number));
 	},
 	updateDistSize() {
 		this.$emit('update_cached_d_size', parseFloat( this.$refs.d_size.value ));
