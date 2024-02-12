@@ -1,6 +1,6 @@
 # PidTuner
 
-This repo is used to host the [PidTuner static website](https://geleos27.github.io/pidtuner.github.io/) and is also used to report **issues**.
+This repo is used to host the [PidTuner modified static website](https://geleos27.github.io/pidtuner.github.io/) and is also used to report **issues**.
 
 When reporting an issue, please follow the guidelines below:
 
